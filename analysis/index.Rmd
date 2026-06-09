@@ -12,3 +12,5 @@ Welcome to my research website.
 
 Slay
 
+* [First Analysis](first-analysis.html)
+
