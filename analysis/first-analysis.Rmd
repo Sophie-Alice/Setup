@@ -9,7 +9,38 @@ editor_options:
 
 ## Introduction
 
+library("workflowr")
+
+Create a repository 
+wflow_start("myproject")
+
+creating website 
+wflow_build()
+
+View it on the local machine 
+wflow_view()
+
+Publish:
+check status 
+wflow_status()
+
+wflow_publish(c("analysis/index.Rmd", "analysis/about.Rmd", "analysis/license.Rmd"),
+              "Publish the initial files for myproject")
+              
+              
+Connect to Github
+wflow_use_github("Sophie-Alice")
+
+Push code to Github:
+wflow_git_push(dry_run = TRUE)     or
+
+git push -u origin master
+
+
+Add a new file 
+wflow_open("analysis/first-analysis.Rmd")
+
 ```{r}
-# eheheheheheheh
+
 ```
 
