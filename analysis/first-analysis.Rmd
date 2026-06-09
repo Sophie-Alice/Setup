@@ -41,6 +41,6 @@ Add a new file
 wflow_open("analysis/first-analysis.Rmd")
 
 ```{r}
-
+print("heheheheheheheh")
 ```
 
